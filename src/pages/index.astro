@@ -1,0 +1,46 @@
+---
+import { info } from "@data";
+
+import Layout from "@layouts/Layout.astro";
+import Hero from "@components/home/Hero.astro";
+import Experience from "@components/home/Experience.astro";
+import MetaHead from "@components/general/MetaHead.astro";
+import BlogWrapper from "@components/general/BlogWrapper.astro";
+
+
+const featuredBlog = info.blogs.reduce((accumulator, blog) => {
+  if (accumulator.length < 6 && blog.isFeatured) {
+    accumulator.push(blog);
+  }
+  return accumulator;
+}, []);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jesse Graham - Developer</title>
+    <MetaHead
+      title={"Portfolio"}
+      description={info.about}
+      ogImageUrl={"/assets/images/profile.png"}
+    />
+  
+  </head>
+
+  <body>
+    <Layout>
+      <Hero name={info.name} about={info.about} />
+      <Experience title={"EXPERIENCE"} details={info.experience} />
+      <Experience title={"EDUCATION"} details={info.education} />
+      <section>
+        <h2 class="w-[15rem] dark:text-light mt-16">FEATURE PROJECTS</h2>
+        <br />
+        <br />
+        <br />
+        <br />
+        <!--<BlogWrapper blogs={featuredBlog} />-->
+      </section>
+    </Layout>
+  </body>
+</html>

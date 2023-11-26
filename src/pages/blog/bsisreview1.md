@@ -1,0 +1,25 @@
+---
+title: 'Information Science Program Review'
+pubDate: 2023-10-30
+description: 'I talk about my Career Aspirations'
+author: 'Jesse Graham'
+tags: ["IoT Devices", "Analysis",]
+layout: ../../layouts/BlogLayout.astro
+---
+<p>
+With only one more semester left to go at the University of South Florida, we will review some of the program’s course requirements. The Information Science program at the University of South Florida offers a few concentrations. I had originally picked a concentration in Web Development Technologies but later switched to Data Science and Analytics. This left me taking a couple classes not so related to my current degree progression but helpful in my day to day currently as a full stack developer. 
+</p>
+<p>
+	Starting with one of the two classes that are no longer needed for my degree, Project Management LIS 4930 is a class that any student looking to get into the Information Technology field. Many adoptions of new technology or replacing old hardware can be turned into a project. As a full stack developer, I have had to act as project manager and have worked with many project managers on a project. I have my stakeholders who are often my managers and or our clients, and understanding how to keep them informed while meeting or not meeting their expectations could be challenging. I’ve had to work with contractors and manage what section of the project they worked on so having taken this class was helpful. The Other class I took but no longer need for my degree is WWW Page and Design/Management LIS 3361. This class was basics of website building. Pretty helpful had I not already been building websites for years at the point I had taken the class.
+    </p>
+<p>
+	Introduction to Information Science LIS 3261 was a great introduction to the class and understanding the history of the class. It gave me an idea of how people take and receive information, so this is helpful in developing tools for people to retrieve information such as websites. IT Concepts for Information LIS 3353 would be good for the average student without a work history in Information Technology. I had already been working in the IT industry prior to taking it so it. It, however, was a bit of a refresher on some basic ideas. 
+	Information Behaviors LIS 4204 and Information Policy and Ethics LIS 4414 were two classes that helped me think deeply about how people use information and how to create policies that benefit people regarding information and technology. Information Behavior focused more on the psychological aspects of this. I think it was a little bit helpful with regards to building a good user experience. Policy and Ethics has been interesting in regard to using technology to either create and manage policies or having to make policies to manage how data is used and gathered. Both are incredibly useful in the industry I work in as many apps must abide by some kind of policy as well as have policies as to how they can and should be used. 
+    </p>
+<p>
+	I took one LIS class under the 3000 level which was Database Concepts LIS 2780. This is incredibly useful for my job as a full stack developer having to work with the user interfaces of applications as well as the backend or database part of applications. Understanding the basics of SQL is incredibly useful. It also helps with my degree concentration in data science and analytics. Often data must be collected and stored somewhere, that somewhere is often databases. Understanding how to store and retrieve that data is a must for both career paths. I took this class along with Introduction to Data Science LIS 4800 which taught me the R coding language and the basics of data science. Once I combined that knowledge with R Programming for Data Science LIS 4370, which gave me a better as well as more of an advanced understanding of R-lang, and Introduction to Data & Text Mining LIS 476, which taught me the basics of scraping data using R-lang, I was able to use my knowledge to learn new ways to interpret data. I started understanding patterns in data and using those patterns to find ways to use the data. Once I was able to understand these basics in data science, I took Advanced Statistics and Analysis LIS 4273. Advance statics and analysis taught me how to work with numbers and further analyze data using R-lang to build machine learning modules. Predictive Analytics LIS 4805 continued this teaching with practice of making predictions with data using different types of modules. This is great for analyzing and predicting patterns in things like stocks. 
+    </p>
+<p>
+	With all these classes, I feel confident going to any new company and being able to contribute immediately. I feel with my background working in IT and application development and the addition of my data science and analytics background I could be a great asset to a company. My overall experience with the Information science program has been a positive one. I think the selection of classes was beneficial to my choice in career path. 
+
+</p>

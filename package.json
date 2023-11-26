@@ -1,0 +1,32 @@
+{
+  "name": "JRG E-Profile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@astrojs/sitemap": "latest",
+    "@astrojs/tailwind": "^5.0.2",
+    "astro": "latest",
+    "astro-robots-txt": "latest",
+    "bun-types": "latest"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^1.1.5",
+    "@astrojs/node": "^6.0.4",
+    "@astrojs/react": "latest",
+    "@astrojs/vercel": "^5.2.0",
+    "mdx": "^0.3.1",
+    "tailwindcss": "^3.3.5"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

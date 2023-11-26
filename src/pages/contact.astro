@@ -1,0 +1,26 @@
+---
+import MetaHead from "@components/general/MetaHead.astro";
+import Layout from "@layouts/Layout.astro";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact</title>
+    <MetaHead
+      title={"Contact"}
+      description={"All Blogs will be available on this page."}
+      ogImageUrl={"/assets/images/profile.png"}
+    />
+  </head>
+
+  <body>
+    <Layout>
+      <h1 style="line-height: 1.2;">Contact</h1>
+      <p class="font-mono text-lg text-green-700">
+        If you would like to get in touch with me, please send me an email at
+        <a href="mailto:jessegraham@usf.edu" class="text-green-500 hover:text-sky-400">jessegraham@usf.edu</a>
+      </p>
+    </Layout>
+  </body>
+</html>

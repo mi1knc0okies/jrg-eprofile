@@ -1,0 +1,44 @@
+---
+import type { MarkdownLayoutProps } from 'astro';
+import Footer from "@components/general/Footer.astro";
+import Navbar from "@components/general/Navbar.astro";
+
+import MetaHead from "../components/general/MetaHead.astro";
+import "../styles/style.css";
+import { isPropertySignature } from 'typescript';
+
+type Props = MarkdownLayoutProps<{
+    // Define frontmatter props here
+  title: string;
+  author: string;
+  date: string;
+  description: string;
+    }>;
+
+// Now, `frontmatter`, `url`, and other Markdown layout properties
+// are accessible with type safety
+const { frontmatter, url } = Astro.props;
+---
+<html>
+<head>
+    <title>{frontmatter.title} | Jesse Graham</title>
+    <MetaHead
+            title={frontmatter.title}
+            description={frontmatter.description}
+            ogImageUrl={"/assets/images/programming.jpg"}
+    />
+</head>
+<body>
+    <Navbar/>
+    <main class="container">
+        <h1 class="text-4xl">{frontmatter.title}</h1>
+        <slot />
+    </main>
+    <Footer/>
+</body>
+
+</html>
+
+
+
+

@@ -1,0 +1,23 @@
+---
+title: 'Event Presentation Report 2'
+pubDate: 2023-09-18
+description: 'I talk about my Career Aspirations'
+author: 'Jesse Graham'
+tags: ["Event Presentation", "Analysis",]
+layout: ../../layouts/BlogLayout.astro
+---
+<p> 
+I did not want to do the same thing I did in the last presentation report, looking up data science and analytics related presentations. I instead decided to look at more general development and programming related Ted Talks. The first talk that I watched is called “The Poetry of Programming” by Linda Liukas. Linda is an author of children’s books as well as a programmer. For the second I chose “Hack a Banana, Make a Keyboard!” presented by Jay Silvers. I watched a few others looking for something interesting to be able to talk about and most importantly something that was interesting to me and these were the two that had the biggest impression on me. 
+</p>
+<p>
+	I mainly turned to Ted Talks videos for this assignment to hopefully learn something new about programming but instead I got two videos that made me think about how I look at the world around me. Both presenters had a quirkiness to them that was a bit distracting to me at first. Liukas appeared to be dressed like the average presenter with an attire that would be appropriate at majority of workplaces let alone a conference which would be normally considered business casual. Silvers however was dressed like was ready for a bon fire at a beach and very casual. Silvers and Liukas spoke with such enthusiasm that showed their passion for their topics and helped draw my attention back to what they were speaking about, instead of over analyzing things about the presentation that I would have changed. Both presentations as well as the presenters end up being very entertaining. While I initially thought Silvers would be more programming oriented his presentation ended up being more about how the world around us can be hacked or manipulated to do things, we didn’t originally think was possible. This tied into Liukas’s presentation which talks about how she teaches children about computers using everyday things. Liukas uses imagination to build worlds using everyday things while relating it to computers. Liukas and Silvers presentations both play on the use of one’s imagination, and with the power of imagination allowing them to create the things they are interested in. 
+    </p>
+    <p>
+	Linda Liukas is programmer turned children’s author and illustrator. Liukas is from Helsinki, Finland. She has created Hello Ruby, a fun and whimsical way to teach programming to children. Hello Ruby, is available in over 30 languages and offers many interactive activities rather than just being books. Liukas was part of Codecademy and founder of Rails Girls, a global organization teaching programming primarily to young girls(Hello Ruby, 2023). Liukas does many speaking events for companies all around the world as well as writing and blogging about programming. Liukas has many achivments and accolades such as making Forbes Top 50 Women in Tech Europe 2018 as well as 50 most inspiring women in technology in Europe in 2015, 2018 and 2019. 
+    </p>
+    <p>
+	Jay Silvers is an inventor, creating the Makey Makey, a kit for people of all ages to invent their own tools to interact with computers. The kit allows people to turn any object into a musical instrument or a keyboard for their computer. One example on the website is triggering the computers camera to snap a picture of a cat whenever it touches a piece of foil. Silvers got his bachelor’s from Georgia Tech winning engineer of the year. He was awarded a Gates Scholarship to earn his master’s in Internet Technology from Cambridge University(Silver, Jay, 2023). Silvers also has a master’s degree in media arts and sciences from MIT Media Lab. He is the founder/director of JoyLabz and a Maker Research Scientist at Intel Labs. 
+    <p>
+	I enjoyed both presentations. It reminded me to not always take my work so seriously and take time to look at things from different angles. I find that trying different approaches is usually what helps me over come challenges, especially when it comes to programming. I think the content was not only relevant to my day job as a programmer but also relevant to my area of study in data science and analytics. One of the biggest roles of a data analyst is to find patterns in things that aren’t always noticed to everyday people. Using one’s imagination to think of things outside of the box or taking approaches that is uncommon is one of the best ways to find new and interesting ideas. I think if I can keep this mindset, I will find new and innovative ways and hopefully create some fun and interesting projects. 
+
+</p>
