@@ -92,7 +92,7 @@ export const info = {
     {
       title: "Jesse Graham",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
+      thumbnail: "/assets/images/programming.jpg",
       githubUrl: "https://github.com/mi1knc0okies",
       liveUrl: "https://github.com/mi1knc0okies/",
     },
