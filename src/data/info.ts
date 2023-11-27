@@ -156,7 +156,7 @@ export const info = {
     {
       title: "Final Presentation",
       isFeatured: true,
-      thumbnail: "/assets/images/reflection.jpg",
+      thumbnail: "/assets/images/final.jpg",
       liveUrl: "blog/presenetation",
     },
   ],
