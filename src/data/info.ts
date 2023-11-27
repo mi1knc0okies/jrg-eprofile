@@ -153,9 +153,11 @@ export const info = {
       thumbnail: "/assets/images/reflection.jpg",
       liveUrl: "blog/reflection",
     },
-
-
-
-
+    {
+      title: "Final Presentation",
+      isFeatured: true,
+      thumbnail: "/assets/images/reflection.jpg",
+      liveUrl: "blog/presenetation",
+    },
   ],
 };

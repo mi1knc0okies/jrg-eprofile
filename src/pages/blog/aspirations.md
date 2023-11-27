@@ -64,3 +64,5 @@ also pushes me to pursue App Development even more. While I believe one should n
 you get, I am 37 and the work/life/school balance or juggling that I am doing has worn on me. I’d love to pursue my 
 master degree, but I also want to enjoy my life. 
 </p>
+
+
