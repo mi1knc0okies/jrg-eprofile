@@ -10,4 +10,4 @@ tags: ["aspirations", "career", "data science", "app development"]
 layout: ../../layouts/BlogLayout.astro
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CvUwXKxosNA?si=OAtxVaO-9G1VbUEB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QrtnaB6BNSM?si=KBVOq0N1uDmhVf3t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
