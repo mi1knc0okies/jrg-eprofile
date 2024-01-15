@@ -159,5 +159,11 @@ export const info = {
       thumbnail: "/assets/images/final.jpg",
       liveUrl: "blog/presenetation",
     },
+    {
+      title: "Analysis of 270towwin.com's Graphics",
+      isFeatured: true,
+      thumbnail: "/assets/images/trumpVSbiden.jpeg",
+      liveUrl: "blog/visualAnalytics1",
+    },
   ],
 };

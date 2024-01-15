@@ -15,7 +15,8 @@ const { title, thumbnail, liveUrl } = blogDetail;
                                 href={liveUrl}
                                 class="text-white p-3 bg-black/50 rounded-full backdrop-blur-md ml-1"
                                 aria-label="Social Media"
-                                target="_parent"
+                                target="_blank"
+                                rel="noopener noreferrer"
                         >
                             <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -38,6 +39,8 @@ const { title, thumbnail, liveUrl } = blogDetail;
     </div>
     <a
             href={liveUrl ? liveUrl : "#"}
+            target="_blank"
+            rel="noopener noreferrer"
             
     >
         <img
