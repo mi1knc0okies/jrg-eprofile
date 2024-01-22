@@ -30,7 +30,8 @@ const query = {
       }`,
   }),
 };
-console.log("query", import.meta.env.HYGRAPH_ENDPOINT);
+
+//console.log("query", import.meta.env.HYGRAPH_ENDPOINT);
 const response = await fetch(import.meta.env.HYGRAPH_ENDPOINT, query);
 const json = await response.json();
 
