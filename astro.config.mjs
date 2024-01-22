@@ -16,5 +16,13 @@ export default defineConfig({
     entryLimit: 10000
   }), robotsTxt(), react()],
   output: "server",
-  adapter: vercel()
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true,
+    },
+    imagesConfig: {
+      sizes: [320, 640, 1280],
+    },
+    imageService: true,
+  }),
 });
