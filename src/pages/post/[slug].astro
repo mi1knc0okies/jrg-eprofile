@@ -1,0 +1,70 @@
+---
+import MetaHead from "../../components/general/MetaHead.astro";
+import Layout from "../../layouts/Layout.astro";
+
+
+interface Post {
+  title: string;
+  slug: string;
+  excerpt: string;
+  coverImage: {
+    url: string;
+  };
+}
+
+const { slug } = Astro.params;
+//console.log("slug", slug);
+
+const query = {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({
+    query: `
+      query Asset($slug: String!) {
+        posts(stage: PUBLISHED, where: {slug: $slug}) {
+          id
+          createdAt
+          slug
+          title
+          content {
+            html
+          }
+          coverImage {
+            url
+          }
+        }
+      }`,
+    variables: {
+      slug: slug
+    }
+  }),
+};
+
+const response = await fetch(import.meta.env.HYGRAPH_ENDPOINT, query);
+const json = await response.json();
+const post = json.data.posts[0];
+
+//console.log("posts", post);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{} | Jesse Graham</title>
+    <MetaHead
+      title={"blog"}
+      description={"All Blogs will be available on this page."}
+      ogImageUrl={"/assets/images/profile.png"}
+    />
+  </head>
+
+  <body>
+    <Layout>
+      <h1 class="text-3xl font-bold underline mb-4">{post.title}</h1>
+      <div set:html={post.content.html}>
+        
+     </div>
+      
+    </Layout>
+  </body>
+</html>
