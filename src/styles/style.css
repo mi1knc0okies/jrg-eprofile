@@ -32,16 +32,17 @@
     @apply text-xl font-semibold;
   }
   p { 
-    @apply font-inter text-sky-600 indent-10;
+    @apply font-inter text-sky-600;
     @apply text-lg;
   }
   
   li,
   a {
-    @apply font-inter text-sky-600 indent-10;
-    
+    @apply font-inter text-purple-400 indent-10;
+    @apply hover:text-purple-500 cursor-auto;
   }
   .footer-icons {
     @apply dark:text-light flex items-center border border-dark dark:border-light p-4 rounded-lg justify-center;
   }
 }
+
